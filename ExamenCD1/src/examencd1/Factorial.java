@@ -4,22 +4,24 @@ public class Factorial {
 
     public static void main(String[] args) {
 
-        int j;
-        int f;
+        // El programa coge un numero entero natural y haciendo un condicional
+        //y un for calcula el factorial de dicho numero entero.
+        int numEntero;
+        int numFactorial;
 
-        j = 8;
+        numEntero = 8;
 
-        int i;
-        if (j == 0) {
-            f = 1;
+        int numIncremental;
+        if (numEntero == 0) {
+            numFactorial = 1;
         } else {
-            f = 1;
-            for (i = j; i >= 1; i--) {
-                f = f * i;
+            numFactorial = 1;
+            for (numIncremental = numEntero; numIncremental >= 1; numIncremental--) {
+                numFactorial = numFactorial * numIncremental;
             }
         }
 
-        System.out.println(f);
+        System.out.println(numFactorial);
 
     }
 
