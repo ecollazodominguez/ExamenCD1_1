@@ -16,6 +16,10 @@ public class NumerosPrimos {
     public static boolean primo = false;
 
     public static void main(String arg[]) {
+        
+        //Se han abreviado algunas variables para que sean más cortas pero manteniendo
+        //su significado (Digitos, divEntera, count, limit) y los demasiado cortos se han alargado
+        //para definirlos mejor (p a primo y i a primos)
         int Digitos = 0;
         int numD = 0;
         Digitos = Integer.parseInt(arg[0]);

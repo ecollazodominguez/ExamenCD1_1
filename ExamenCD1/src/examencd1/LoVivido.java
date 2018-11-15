@@ -7,7 +7,7 @@ package examencd1;
 import javax.swing.JOptionPane;
 
 public class LoVivido {
-
+//El programa te indica el año, mes, dia y hora que has vivido, se ha refactorizazo para indicar bien qué es cada variable
     public static void main(String[] args) {
         String nombre;
         String edad;
